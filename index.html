@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Love Travel</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <section class="header-section pb-4">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light nav-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="logo" style="width: 150px; object-fit: contain;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav p-3 ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><span class="link-font">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="link-font">About us</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="link-font">Packages</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="link-font">Contact</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Slide -->
+  <section>
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner2.jpg" class="d-block w-100 img-fluid" alt="..." height="550vh">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <img src="./images/banner3.jpg" class="d-block w-100 img-fluid" alt="..." height="550vh">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <div class="container">
+    <div class="features">
+      <h2 class="text-primary my-2 text-center pt-4 pb-4">
+         OUR  DESTINATIONS
+      </h2>
+      <div class="row gy-4 pb-2 ms-5">
+          <div class="col-lg-6 d-flex">
+              <div class="destination-img">
+                  <img width="277px" src="./images/d1.jpg" alt="image" style="object-fit: contain;">
+              </div>
+             <div class="destination-text ms-3 text-center justify-content-center align-items-center">
+              <h4>Europe</h4>
+              <p>3 Packages</p>
+             </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+              <div class="destination-img img-fluid">
+                  <img width="277px" src="./images/d2.jpg" alt="image" style="object-fit: contain;">
+              </div>
+             <div class="destination-text ms-3">
+              <h4>Thailandia</h4>
+              <p>1 Package</p>
+             </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-row">
+              <div class="destination-img img-fluid">
+                  <img width="277px" src="./images/d3.jpg" alt="image" style="object-fit: contain;">
+              </div>
+             <div class="destination-text ms-3">
+              <h4>Asia</h4>
+              <p>2 Packages</p>
+             </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+              <div class="destination-img">
+                  <img width="277px" src="./images/d4.jpg" alt="image" style="object-fit: contain;">
+              </div>
+             <div class="destination-text ms-3">
+              <h4>Italy</h4>
+              <p>1 Package</p>
+             </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+  <!-- Our packages -->
+  <div class="container text-center mt-5">
+    <h1 class="text-uppercase text-primary pb-4 pt-4">Our Packages</h1>
+    <div class="container py5">
+      <div class="row text-center">
+        <!-- first -->
+        <div class="col-lg-4 mb-lg-0">
+          <div class="bg-white p-5 rounded-lg shadow">
+            <h2 class="mb-1 ps-0">$700</h2>
+            <h2 class="font-weight mb-2">
+              CULTURAL
+              RELAX</h2>
+            <ul class="list-unstyled text-left">
+              <p>For most businesses event
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+              </p>
+            </ul>
+            <a href="" class="btn btn-primary btn-block py-2 px-4 shadow rounded-pill">Details</a>
+          </div>
+        </div>
+        <!-- second -->
+        <div class="col-lg-4 mb-lg-0">
+          <div class="bg-white p-5 rounded-lg shadow">
+            <h2 class="mb-1 ps-0">$500</h2>
+            <h2 class="h2 font-weight mb-2">HISTORY
+              CULTURAL</h2>
+            <ul class="list-unstyled text-left">
+              <p>For most businesses event
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-check text-primary"></i>
+                  Lorem Ipsum dolor
+                </li>
+              </p>
+            </ul>
+            <a href="" class="btn btn-primary btn-block py-2 px-4 shadow rounded-pill">Details</a>
+          </div>
+        </div>
+        <!-- third -->
+        <div class="col-lg-4 mb-lg-0 mb-2 rounded-lg">
+          <div>
+            <div class="p-5 rounded shadow mb-3" style="background: #14b9d5;">
+              <h2 class="mb-1 ps-0 text-white">$400</h2>
+              <h2 class="h2 font-weight text-white">SPORT
+                RELAX</h2>
+              <ul class="list-unstyled text-left">
+                <p class="text-white">For most businesses event
+                  <li class="mb-2">
+                    <i class="fa fa-check text-light"></i>
+                    <span class="text-white">Lorem Ipsum dolor</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fa fa-check text-light"></i>
+                    <span class="text-white">Lorem Ipsum dolor</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fa fa-check text-light"></i>
+                    <span class="text-white">Lorem Ipsum dolor</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fa fa-check text-light"></i>
+                    <span class="text-white">Lorem Ipsum dolor</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fa fa-check text-light"></i>
+                    <span class="text-white">Lorem Ipsum dolor</span>
+                  </li>
+                </p>
+              </ul>
+              <a href="" class="btn btn-light btn-block py-2 px-4 shadow rounded-pill text-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services-->
+  <section class="container">
+    <h1 class="p-1 text-uppercase text-primary text-center text-decoration-none">Services</h1>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card shadow p-3 mb-5 bg-body rounded">
+              <div class="d-flex justify-content-center align-items-center">
+                <img style="background-color: #14b9d5; height: 273px; object-fit: contain;" src="./images/banner1.jpg" class="w-100 p-3" alt="...">
+              </div>
+            <div class="card-body">
+              <h3 class="card-title">Seasonal Price</h3>
+              <p class="card-text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow p-3 mb-5 bg-body rounded">
+              <div class="d-flex justify-content-center align-items-center">
+                <img style="background-color: #14b9d5; height: 273px; object-fit: contain;" src="./images/banner2.jpg" class="w-100 p-3" alt="...">
+              </div>
+            <div class="card-body">
+              <h3 class="card-title">All Destinations</h3>
+              <p class="card-text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow p-3 mb-5 bg-body rounded">
+              <div class="d-flex justify-content-center align-items-center ">
+                <img style="background-color: #14b9d5; height: 273px; object-fit: contain;" src="./images/banner3.jpg" class="card-img-top w-100 p-3" alt="...">
+              </div>
+            <div class="card-body">
+              <h3 class="card-title">City Tours</h3>
+              <p class="card-text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+  <!-- Accordion -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center py-4 text-primary text-uppercase">
+          <h1>Frequently Asked Questions</h1>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How to pay an online travel reservation ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut sint officiis molestiae error quisquam quia minus voluptatibus! Veniam nisi laudantium nobis alias. Ducimus voluptates ipsa delectus explicabo recusandae animi voluptatem nam. Praesentium, esse odit eum rem ducimus asperiores eius sit laudantium repellendus quam officiis assumenda animi, maxime sed quae!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How to became a VIP customer in your agency ?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dignissimos optio at iste quos blanditiis error voluptates ipsum deserunt soluta modi, reiciendis accusamus sit ducimus omnis quidem voluptatem qui fugit rem quae voluptate harum voluptatibus. Deserunt delectus voluptas quod eveniet repudiandae ratione in adipisci officiis error veniam placeat, illum alias.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Which currency do we accept in your agency ?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab laborum itaque atque nesciunt quas enim obcaecati, molestiae laudantium non. Debitis reprehenderit, fugiat illum consequatur expedita eius, nulla voluptates deleniti ea laborum quidem? Numquam quasi nesciunt culpa illum. Repellendus dolorum ea consequatur facere! Veniam est reprehenderit nam blanditiis provident rerum!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <div class="container-fluid bg-dark mt-4 py-4">
+    <h6 style="margin-bottom: 0; letter-spacing: 1px;" class="text-center text-white">© 2022 Copyright.Shamsojjaman Sajib</h6>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/32fc3fdab0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
